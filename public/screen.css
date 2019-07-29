@@ -1,0 +1,22 @@
+
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+  background-color: #99b19c;
+}
+
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  min-height: 100%;
+  text-align: center;
+  text-decoration: none; 
+  
+}
+
+li{
+  list-style: none;
+}
