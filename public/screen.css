@@ -69,24 +69,41 @@ section div, section article {
   border: solid 2px black;
 }
 
-
-
-
-
-
-
-
-
-/* 
-ul li {
-  list-style: none;
-  text-decoration: none;
-  padding: 1rem;
-  border: 1.2px solid black;
-  padding-left: 1rem;
+#uglybackground{
+  background-color: peru;
 }
 
-section ul {
+
+/* Fade in and out during hover state, switches images */
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+  border: dotted 3px turquoise;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+
+
+
+
+/* styling for images on routines.html */
+
+#container{
   display: flex;
-  padding-left: 15rem;
-} */
+}
+section div img{
+  padding: 10px;
+}
+
