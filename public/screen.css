@@ -29,7 +29,6 @@
 
 html {
   height: 100%;
-  background-color: #648f92;
 }
 /* end navbar styling */
 
@@ -40,7 +39,17 @@ body {
   text-align: center;
 
 }
+body.home{
+  background-color: #648f92;
+}
 
+body.Routines{
+  background-image: url("https://thumbs.dreamstime.com/z/triangle-geometric-seamless-pattern-vector-illustration-memphis-s-abstract-tile-background-vintage-triangle-geometric-seamless-134731643.jpg")
+}
+
+body.data-table{
+  background-image: url("https://scontent-lga3-1.cdninstagram.com/vp/f3e2e2474576127615b775db2ab811ae/5DE54145/t51.2885-15/e35/59441637_198695924445980_6906497707839338624_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com")
+}
 img{
   height: 18rem;
   width: 18rem;
@@ -107,3 +116,23 @@ section div img{
   padding: 10px;
 }
 
+#data-table{
+  border: ridge 1px red;
+}
+
+#data-table td{
+  padding:7px; border:#4e96f4 1px solid;
+
+}
+
+td:hover {
+  color:green;
+}
+
+#data-table tr td:nth-child(odd){
+  background-color: #fff
+}
+
+#data-table tr td:nth-child(even){
+  background-color: pink
+}
