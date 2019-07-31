@@ -1,3 +1,4 @@
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -135,4 +136,16 @@ td:hover {
 
 #data-table tr td:nth-child(even){
   background-color: pink
+}
+
+
+
+
+/* footer styling */
+
+#footer{
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  border: #4e96f4 dotted 3px;
 }
