@@ -1,4 +1,3 @@
-
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -31,6 +30,7 @@
 html {
   height: 100%;
 }
+
 /* end navbar styling */
 
 body {
@@ -40,23 +40,25 @@ body {
   text-align: center;
 
 }
-body.home{
+
+body.home {
   background-color: #648f92;
 }
 
-body.Routines{
+body.Routines {
   background-image: url("https://thumbs.dreamstime.com/z/triangle-geometric-seamless-pattern-vector-illustration-memphis-s-abstract-tile-background-vintage-triangle-geometric-seamless-134731643.jpg")
 }
 
-body.data-table{
+body.data-table {
   background-image: url("https://scontent-lga3-1.cdninstagram.com/vp/f3e2e2474576127615b775db2ab811ae/5DE54145/t51.2885-15/e35/59441637_198695924445980_6906497707839338624_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com")
 }
-img{
+
+img {
   height: 18rem;
   width: 18rem;
 }
 
-.navbar-item{
+.navbar-item {
   background-color: aqua;
   width: 150px;
   border: 4px dotted green;
@@ -65,76 +67,77 @@ img{
 }
 
 /* all this does is remove bullets from list */
-#container-navbar{
-list-style: none;
+#container-navbar {
+  list-style: none;
 
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
 }
 
-section div, section article {
+section div,
+section article {
   border: solid 2px black;
 }
 
-#uglybackground{
+#uglybackground {
   background-color: peru;
 }
 
 
 /* Fade in and out during hover state, switches images */
 #cf {
-  position:relative;
-  height:281px;
-  width:450px;
-  margin:0 auto;
+  position: relative;
+  height: 281px;
+  width: 450px;
+  margin: 0 auto;
   border: dotted 3px turquoise;
 }
 
 #cf img {
-  position:absolute;
-  left:0;
+  position: absolute;
+  left: 0;
   -webkit-transition: opacity 1s ease-in-out;
-  
+
 }
 
 #cf img.top:hover {
-  opacity:0;
+  opacity: 0;
 }
-
-
-
 
 
 /* styling for images on routines.html */
 
-#container{
+#container {
   display: flex;
+
 }
-section div img{
+
+section div img {
   padding: 10px;
 }
 
-#data-table{
+#data-table {
   border: ridge 1px red;
 }
 
-#data-table td{
-  padding:7px; border:#4e96f4 1px solid;
+#data-table td {
+  padding: 7px;
+  border: #4e96f4 1px solid;
 
 }
 
 td:hover {
-  color:green;
+  color: green;
 }
 
-#data-table tr td:nth-child(odd){
+#data-table tr td:nth-child(odd) {
   background-color: #fff
 }
 
-#data-table tr td:nth-child(even){
+#data-table tr td:nth-child(even) {
   background-color: pink
 }
 
@@ -143,7 +146,7 @@ td:hover {
 
 /* footer styling */
 
-#footer{
+#footer {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
